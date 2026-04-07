@@ -9,7 +9,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    # these labels are used to select pods
+  # these labels are used to select pods
     matchLabels:
       purpose: headless-svc-demo
       project: roboshop
