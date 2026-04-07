@@ -21,7 +21,6 @@ spec:
         purpose: headless-svc-demo
         project: roboshop
     spec:
-    
       containers:
       - name: nginx
         image: nginx:latest
